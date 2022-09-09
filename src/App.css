@@ -1,0 +1,31 @@
+.App {
+  text-align: center;
+
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.transaction-li{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  border: 1px solid rgb(235, 126, 219);
+  margin: 1%;
+  padding: 2%;
+ 
+}
+
+.detail-page{
+  border: 1 px solid black;
+}
+
+.nav {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+height: 60px;
+  padding-top: 2%;
+background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2tVlHmLzaU45GxIwasmgJrls_l6SqERh1yw&usqp=CAU");
+}
+
